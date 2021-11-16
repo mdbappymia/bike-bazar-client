@@ -1,0 +1,12 @@
+.my-order-section {
+  margin-top: 10px;
+  background-color: rgb(24, 36, 49);
+}
+.my-order-card {
+  height: 350px;
+}
+@media only screen and (max-width: 666px) {
+  .my-order-card {
+    height: 100% !important;
+  }
+}

@@ -1,0 +1,18 @@
+.register-page {
+  background-color: rgb(24, 36, 49);
+  height: 100vh;
+  margin: 0;
+}
+.register-page h1,
+.register-page h5 {
+  color: white;
+}
+.registration-form {
+  width: 50% !important;
+  margin: auto;
+}
+@media only screen and (max-width: 666px) {
+  .registration-form {
+    width: 95% !important;
+  }
+}

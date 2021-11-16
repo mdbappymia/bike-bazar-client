@@ -1,0 +1,15 @@
+.make-admin-page {
+  background-color: rgb(21, 45, 65);
+  padding: 10px;
+  margin-top: 10px;
+}
+.single-user-item {
+  border: 2px solid green;
+  margin: 10px 0;
+  padding: 10px;
+}
+@media only screen and (max-width: 666px) {
+  .make-admin-page {
+    padding: 5px;
+  }
+}

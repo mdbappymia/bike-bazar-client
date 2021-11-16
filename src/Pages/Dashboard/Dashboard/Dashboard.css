@@ -1,0 +1,33 @@
+.dashboard-page {
+  background-color: rgb(37, 65, 97);
+  margin: 0;
+  color: white;
+}
+.dashboard-item-left {
+  background-color: rgb(24, 36, 49);
+  height: 100vh;
+}
+.dropdown a {
+  color: rgb(11, 179, 81) !important;
+  font-weight: bold;
+}
+.dropdown {
+  display: none;
+}
+.dashboard-page .top-bar-dashboard {
+  background-color: rgb(24, 36, 49);
+}
+.dashboard-page .nav-link {
+  color: aliceblue;
+}
+@media only screen and (max-width: 666px) {
+  .dropdown {
+    display: block;
+  }
+  .dashboard-item-left {
+    display: none;
+  }
+  .dashboard-page h1 {
+    font-size: 20px;
+  }
+}

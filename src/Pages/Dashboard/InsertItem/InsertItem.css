@@ -1,0 +1,16 @@
+.insert-item-page {
+  background-color: rgb(24, 36, 49);
+  height: 100vh;
+}
+.insert-item-page h1 {
+  color: white;
+}
+.insert-item-form {
+  width: 50% !important;
+  margin: auto;
+}
+@media only screen and (max-width: 666px) {
+  .insert-item-form {
+    width: 95% !important;
+  }
+}

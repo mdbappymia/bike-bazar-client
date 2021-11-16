@@ -1,0 +1,24 @@
+.review-section-home {
+  background-color: rgb(24, 36, 49);
+  padding: 50px;
+}
+.review-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.review-item {
+  padding: 20px;
+  border: 2px solid lightsalmon;
+  background-color: lightsteelblue;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 666px) {
+  .review-container {
+    grid-template-columns: 1fr;
+  }
+  .review-section-home {
+    padding: 0;
+  }
+}

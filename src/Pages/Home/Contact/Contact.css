@@ -1,0 +1,13 @@
+.contact-form-section {
+  background-color: rgb(15, 33, 44);
+  color: white;
+}
+.contact-form-home {
+  width: 50%;
+  margin: auto;
+}
+@media only screen and (max-width: 666px) {
+  .contact-form-home {
+    width: 90%;
+  }
+}
