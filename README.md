@@ -1,7 +1,7 @@
 # Bike Bazar Client Side
 
 This project live link [Bike Bazar](https://bike-bazar-ecc4c.web.app).
-Backend live link [Bike Bazar server](https://radiant-meadow-05044.herokuapp.com/).
+Backend live link [Bike Bazar server](https://bike-bazar-muyy.onrender.com/).
 
 ## Site overview
 

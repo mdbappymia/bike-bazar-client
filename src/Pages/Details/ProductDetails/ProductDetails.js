@@ -8,7 +8,7 @@ const ProductDetails = () => {
   const [product, setProduct] = useState({});
   const { id } = useParams();
   useEffect(() => {
-    fetch(`https://radiant-meadow-05044.herokuapp.com/products/${id}`)
+    fetch(`https://bike-bazar-muyy.onrender.com/products/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [id]);

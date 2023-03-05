@@ -72,7 +72,7 @@ const useFirebase = () => {
       if (user) {
         setUser(user);
         setAdminLoading(true);
-        fetch(`https://radiant-meadow-05044.herokuapp.com/users/${user.email}`)
+        fetch(`https://bike-bazar-muyy.onrender.com/users/${user.email}`)
           .then((res) => res.json())
           .then((data) => {
             if (data?.role === "Admin") {
@@ -95,7 +95,7 @@ const useFirebase = () => {
 
   const saveUser = (email, displayName) => {
     const user = { email, displayName, role: "User" };
-    fetch("https://radiant-meadow-05044.herokuapp.com/users", {
+    fetch("https://bike-bazar-muyy.onrender.com/users", {
       method: `POST`,
       headers: {
         "content-type": "application/json",

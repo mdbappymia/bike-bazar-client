@@ -6,7 +6,7 @@ const MakeAdmin = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("https://radiant-meadow-05044.herokuapp.com/users")
+    fetch("https://bike-bazar-muyy.onrender.com/users")
       .then((res) => res.json())
       .then((data) => setUsers(data));
   }, []);
@@ -14,7 +14,7 @@ const MakeAdmin = () => {
   const handleMakeAdmin = (id, role) => {
     const isRoleChange = window.confirm("Are you sure?");
     if (isRoleChange) {
-      fetch(`https://radiant-meadow-05044.herokuapp.com/users/${id}`, {
+      fetch(`https://bike-bazar-muyy.onrender.com/users/${id}`, {
         method: "PUT",
         headers: {
           "content-type": "application/json",

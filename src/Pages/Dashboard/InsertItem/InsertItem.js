@@ -13,7 +13,7 @@ const InsertItem = () => {
   const onSubmit = (data) => {
     const isAdd = window.confirm("Are you sure added the service?");
     if (isAdd) {
-      fetch("https://radiant-meadow-05044.herokuapp.com/products", {
+      fetch("https://bike-bazar-muyy.onrender.com/products", {
         method: "POST",
         headers: {
           "content-type": "application/json",

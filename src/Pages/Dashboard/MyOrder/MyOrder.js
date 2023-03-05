@@ -8,7 +8,7 @@ const MyOrder = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch(`https://radiant-meadow-05044.herokuapp.com/orders/${user.email}`)
+    fetch(`https://bike-bazar-muyy.onrender.com/orders/${user.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, []);
@@ -17,7 +17,7 @@ const MyOrder = () => {
   const handleRemove = (id) => {
     const isRemove = window.confirm("Are you sure delete the item?");
     if (isRemove) {
-      fetch(`https://radiant-meadow-05044.herokuapp.com/orders/${id}`, {
+      fetch(`https://bike-bazar-muyy.onrender.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((res) => res.json())

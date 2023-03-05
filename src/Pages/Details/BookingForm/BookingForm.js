@@ -19,7 +19,7 @@ const BookingForm = (props) => {
     newData.status = "Pending";
     const isOrder = window.confirm("Are you sure your information correct?");
     if (isOrder) {
-      fetch("https://radiant-meadow-05044.herokuapp.com/orders", {
+      fetch("https://bike-bazar-muyy.onrender.com/orders", {
         method: "POST",
         headers: {
           "content-type": "application/json",

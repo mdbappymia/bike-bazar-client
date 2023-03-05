@@ -18,7 +18,7 @@ const InsertReview = () => {
     newReview.email = user.email;
     const isReview = window.confirm("Are your sure?");
     if (isReview) {
-      fetch("https://radiant-meadow-05044.herokuapp.com/reviews", {
+      fetch("https://bike-bazar-muyy.onrender.com/reviews", {
         method: "POST",
         headers: {
           "content-type": "application/json",

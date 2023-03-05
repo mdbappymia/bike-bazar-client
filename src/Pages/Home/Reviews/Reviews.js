@@ -6,7 +6,7 @@ import "./Reviews.css";
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("https://radiant-meadow-05044.herokuapp.com/reviews")
+    fetch("https://bike-bazar-muyy.onrender.com/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
